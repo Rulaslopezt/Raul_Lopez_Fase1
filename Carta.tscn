@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b5gejf0spci1a"]
+
+[ext_resource type="Texture2D" uid="uid://dcjqd6h21emey" path="res://dorso.png" id="1_ck7s5"]
+[ext_resource type="Script" uid="uid://c4n8v2wqwg8gi" path="res://Carta.gd" id="2_eg4qr"]
+
+[node name="Carta" type="TextureButton" unique_id=873384408]
+custom_minimum_size = Vector2(160, 110)
+offset_right = 90.0
+offset_bottom = 110.0
+texture_normal = ExtResource("1_ck7s5")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("2_eg4qr")
